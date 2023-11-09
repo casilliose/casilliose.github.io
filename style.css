@@ -20,3 +20,23 @@ div button {
     width: 100%;
     margin-bottom: 20px;
 }
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+    .center-button {
+        font-size: 45px;
+        margin-top: 20px;
+    }
+    img {
+        width: 100%;
+    }
+    p {
+        width: 100%;
+        font-size: 55px;
+    }
+    #qwr button {
+        font-size: 55px;
+        margin-bottom: 44px;
+    }
+}

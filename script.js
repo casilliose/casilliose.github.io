@@ -41,7 +41,7 @@ const shuffle = (array) => {
 function render(obj, index) {
     let pattern = "<div class='center'>"
     if (obj["img"] != "") {
-        pattern += "<img src='"+obj["img"]+"' />"
+        pattern += "<img src='img/"+obj["img"]+"' />"
     }
     pattern += "<p>"+obj["question"]+"</p><div id='qwr' data-index='"+index+"'>"
     shuffle(obj["variants"]);
