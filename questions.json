@@ -1,0 +1,42 @@
+{
+  "1" : {
+    "question":"test ?",
+    "img":"src",
+    "variants": [
+      {"answer":"yes", "correct":true},
+      {"answer":"no", "correct": false},
+      {"answer":"more", "correct": false},
+      {"answer":"any", "correct": false}
+    ]
+  },
+  "2" : {
+    "question":"test 2 ?",
+    "img":"src2",
+    "variants": [
+      {"answer":"yes 2", "correct":false},
+      {"answer":"no 2", "correct": true},
+      {"answer":"more 2", "correct": false},
+      {"answer":"any 2", "correct": false}
+    ]
+  },
+  "3" : {
+    "question":"test 3 ?",
+    "img":"",
+    "variants": [
+      {"answer":"yes 3", "correct":false},
+      {"answer":"no 3", "correct": false},
+      {"answer":"more 3", "correct": false},
+      {"answer":"any 3", "correct": true}
+    ]
+  },
+  "4" : {
+    "question":"test 4 ?",
+    "img":"",
+    "variants": [
+      {"answer":"yes 4", "correct":false},
+      {"answer":"no 4", "correct": false},
+      {"answer":"more 4", "correct": true},
+      {"answer":"any 4", "correct": false}
+    ]
+  }
+}
